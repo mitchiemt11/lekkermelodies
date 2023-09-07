@@ -1,10 +1,9 @@
 import React from 'react';
+import Landing from './sections/Landing';
 
 function App() {
   return (
-    <div className='text-red-700 text-center text-4xl'>
-      <h1>Lekker Melodies</h1>
-    </div>
+    <Landing/>
   );
 }
 

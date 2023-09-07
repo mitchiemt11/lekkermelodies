@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div>Landing</div>
+    <div className='text-4xl text-center text-green-700'>Lekker Melodies 🎼 🎶 </div>
   )
 }
 
