@@ -14,7 +14,9 @@ const Landing = () => {
         <h2 className="text-2xl font-bold md:text-4xl lg:text-6xl uppercase">
           Lekker Melodies 
         </h2>
-        <p className='text-lg md:text-2xl lg:text-3xl py-2 px-4 md:px-10 md:py-4 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mb-8 mx-auto rounded-full' >Your Ambient Sonic Sanctuary</p>
+        <p className='text-lg md:text-2xl lg:text-3xl py-2 px-4 md:px-10 md:py-4 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mb-8 mx-auto rounded-full'>
+          Your Ambient Sonic Sanctuary
+        </p>
       </main>
     </div>
   )
