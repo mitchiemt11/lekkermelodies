@@ -17,33 +17,39 @@ const About = () => {
               <img className="rounded-full shadow-lg antialiased" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="User Profile" />
             </div>
             <div className="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
-            <div className="w-full text-center text-gray-700 font-semibold relative pt-3 md:pt-0">
-  <div className="text-3xl text-white font-extrabold leading-tight uppercase pt-6">
-    Lekker Melodies
-  </div>
-  <div className="text-normal text-gray-300 mt-6">
-    <span className="border-b border-dashed border-gray-500 pb-1">
-      Creating a peaceful and focused atmosphere using the magic of sounds
-    </span>
-  </div>
-  <p className="text-gray-400 mt-12 pt-8">
-    Welcome to Lekker Melodies, where music transforms into an oasis of tranquility and focus. Our journey began with a simple goal - to harness the mystical power of sounds and craft a serene experience that enriches your life. Dive into the realm of harmonious melodies that serve as your companion in both creativity and relaxation.
-  </p>
-  <p className="text-gray-400 mt-4">
-    At Lekker Melodies, we believe that the right music can transport you to a world of boundless inspiration. Whether you're seeking solace in the midst of a busy day or aiming to enhance your productivity, our carefully curated collection of melodies has you covered. Each note is a piece of magic, meticulously chosen to create an atmosphere that resonates with your soul.
-  </p>
-  <p className="text-gray-400 mt-4">
-    Join us on this sonic journey and let the symphony of Lekker Melodies elevate your daily experiences. It's more than just music; it's a transformative escape. Discover the extraordinary within the ordinary.
-  </p>
-  <p className="text-gray-400 mt-4">
-    Image credits: Background photo by [Photographer's Name] on Unsplash, User Profile image by [Photographer's Name] on Pixabay.
-  </p>
-</div>
-
+              <div className="w-full text-center text-gray-700 font-semibold relative pt-3 md:pt-0">
+                <div className="text-3xl text-white font-extrabold leading-tight uppercase pt-6">
+                  Lekker Melodies
+                </div>
+                <div className="text-normal text-gray-300 mt-6">
+                  <span className="border-b border-dashed border-gray-500 pb-1">
+                    Creating a peaceful and focused atmosphere using the magic of sounds
+                  </span>
+                </div>
+                <p className="text-gray-300 mt-12 pt-8">
+                  I've always believed that the right sounds can make a world of difference
+                  in our daily lives. Whether it's the gentle rustling of leaves in a forest
+                  or the soft hum of a coffee shop, sounds have this incredible power to 
+                  transport us to a calmer, more focused state of mind.
+                </p>
+                <p className="text-gray-300 mt-4">
+                  So, I decided to create <b>Lekker Melodies</b> as a place where you and
+                  I can explore the incredible world of sounds together. I'm not a
+                  sound guru or anything, just someone who appreciates the beauty of
+                  a well-timed melody or the soothing rhythm of raindrops.
+                </p>
+                <p className="text-gray-300 mt-4">
+                  Through <b>Lekker Melodies</b>, I want to share this love for sounds with
+                  you and help you find your own moments of serenity in the midst of
+                  life's chaos. Together, we can create a little oasis of calm, no matter where you are.
+                </p>
+                <p className="text-gray-300 mt-4 mb-8">
+                  So, if you're curious about how the right sounds can make your day
+                  a bit brighter or help you focus better, stick around. Let's embark
+                  on this sound adventure together at <b>Lekker Melodies.</b>
+                </p>
+              </div>
             </div>
-            
-           
-
           </div>
         </div>
       </div>
