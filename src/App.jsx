@@ -5,8 +5,7 @@ import Blog from './sections/Blog';
 function App() {
   return (
     <>
-    <Landing/>
-    <Blog/>
+      <Landing/>
     </>
   );
 }
