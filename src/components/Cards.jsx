@@ -8,8 +8,8 @@ const Cards = () => {
         <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
       </div>
       <div className="px-6 pt-4 pb-2 flex items-center justify-between">
-        <span className="inline-block bg-[#f50] rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          <PlayIcon className='text-white bg-white'  />
+        <span className="inline-block bg-[#0274ff] cursor-pointer rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+          <PlayIcon />
         </span>
         <span className="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
           <div className="flex items-center justify-center">
