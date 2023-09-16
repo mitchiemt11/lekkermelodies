@@ -12,7 +12,7 @@ export default function Overview() {
         <div className="mt-10 max-w-2xl">
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-[#0274ff]" aria-hidden="true" />
               <span>
                 <strong className="font-semibold text-gray-900">1. Sounds Anywhere: </strong> 
                 Whether you're studying, working, or just need some calm, Lekker Melodies has 
@@ -20,7 +20,7 @@ export default function Overview() {
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-[#0274ff]" aria-hidden="true" />
               <span>
                 <strong className="font-semibold text-gray-900">2. Public Places: </strong>
                 Ever wanted to escape the noise of a crowded place? Plug in your headphones, and
@@ -29,14 +29,14 @@ export default function Overview() {
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-[#0274ff]" aria-hidden="true" />
               <span>
                 <strong className="font-semibold text-gray-900">3. Simple to Use: </strong>
                 Lekker Melodies is easy. Just click, play, and enjoy. No tech stuff to worry about.
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-[#0274ff]" aria-hidden="true" />
               <span>
                 <strong className="font-semibold text-gray-900">4. No Cost, No Catch: </strong>
                 It's completely free! No hidden fees or subscriptions. It's our way of making peace and focus
