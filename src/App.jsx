@@ -1,14 +1,16 @@
 import React from 'react';
-import Landing from './sections/Landing';
-import Overview from './sections/Overview';
-
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
 
 function App() {
   return (
-    <>
-      <Landing/>
-      <Overview/>
-    </>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/blog' element={<Blog />} />
+    </Routes>
   );
 }
 

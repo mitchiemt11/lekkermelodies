@@ -1,7 +1,7 @@
 import React from 'react'
 import Cards from '../components/Cards';
 
-const Landing = () => {
+const Home = () => {
   return (
     <div className='min-h-screen flex flex-col text-white'>
       <header className='container mx-auto p-6 flex flex-col md:flex-row items-center justify-end'>
@@ -19,12 +19,11 @@ const Landing = () => {
           Your Ambient Sonic Sanctuary
         </p>
         <div className='mt-9'>
-
-        <Cards/>
-        </div>
+          <Cards/>
+        </div>       
       </main>
     </div>
   )
 }
 
-export default Landing;
+export default Home;
