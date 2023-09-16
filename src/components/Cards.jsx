@@ -3,18 +3,18 @@ import PlayIcon from './PlayIcon';
 
 const Cards = () => {
   const cardData = [
-    { title: 'Card 1' },
-    { title: 'Card 2' },
-    { title: 'Card 3' },
-    { title: 'Card 4' },
-    { title: 'Card 5' },
-    { title: 'Card 6' },
-    { title: 'Card 7' },
-    { title: 'Card 8' },
-    { title: 'Card 9' },
-    { title: 'Card 10' },
-    { title: 'Card 11' },
-    { title: 'Card 12' },
+    { title: 'Evening Birds' },
+    { title: 'Campfire Crackling' },
+    { title: 'Wind Outside' },
+    { title: 'Small Waves' },
+    { title: 'White Noise' },
+    { title: 'Rain Ambient' },
+    { title: 'Nature Relax: Birds' },
+    { title: 'Lightning & Thunder' },
+    { title: 'Chimes Bells' },
+    { title: 'Night Field Cricket' },
+    { title: 'Soft Piano' },
+    { title: 'Calm River' },
   ];
 
   return (
