@@ -47,13 +47,6 @@ export default function Overview() {
           <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Enjoy!! 🎹 🎵</h3>
         </div>
       </div>
-      <footer className='p-6 flex flex-col md:flex-row items-center justify-between'>
-        <p className='mx-3 pt-16'>Built with 💝 by Mitchell Mutandah</p>
-
-        <div className='flex pt-16'>
-          <p className="mx-3">© 2023 Lekker Melodies, All Rights Reserved</p>
-        </div>
-      </footer>
     </div>
   )
 }
