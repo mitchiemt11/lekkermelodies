@@ -1,5 +1,6 @@
 import React from 'react';
 import PlayIcon from './PlayIcon';
+import PauseIcon from './PauseIcon';
 import Campfire from '../data/nature_sounds/campfire-crackling.mp3'
 import CalmRiver from '../data/nature_sounds/calm-river.mp3'
 import Chimes from '../data/nature_sounds/chimes-bells.mp3'
@@ -29,9 +30,7 @@ const Cards = () => {
     { title: 'Calm River', audioSrc: CalmRiver },
   ];
 
-  // const [audioElements, setAudioElements] = React.useState({});
   const audioElements = React.useRef({});
-
 
 
   const toggleAudio = (title) => {
@@ -43,8 +42,6 @@ const Cards = () => {
       audio.currentTime = 0;
     }
   };
-  
-
 
   return (
     <div className="flex flex-wrap -mx-4">
@@ -56,7 +53,7 @@ const Cards = () => {
             </div>
             <div className="px-6 pt-4 pb-2 flex items-center justify-between">
               <span onClick={() => toggleAudio(card.title)} className="inline-block cursor-pointer rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                <PlayIcon />
+                <PauseIcon />
               </span>
               <span className="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 <div className="flex items-center justify-center">
@@ -65,10 +62,9 @@ const Cards = () => {
               </span>
             </div>
             <audio ref={(audio) => (audioElements.current[card.title] = audio)}>
-  <source src={card.audioSrc} type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
+              <source src={card.audioSrc} type="audio/mp3" />
+              Your browser does not support the audio element.
+            </audio>
           </div>
         </div>
       ))}
