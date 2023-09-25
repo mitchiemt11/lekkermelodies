@@ -31,15 +31,17 @@ const Cards = () => {
   ];
 
   const audioElements = React.useRef({});
-
+  const [isPlaying, setIsPlaying] = React.useState({});
 
   const toggleAudio = (title) => {
     const audio = audioElements.current[title]; // Retrieve the audio element using the title
-    if (audio && audio.paused) { // Check if audio exists and is paused
+    if (audio && audio.paused) {
       audio.play();
+      setIsPlaying({ ...isPlaying, [title]: true });
     } else if (audio) { // Check if audio exists
       audio.pause();
       audio.currentTime = 0;
+      setIsPlaying({ ...isPlaying, [title]: false });
     }
   };
 
@@ -53,7 +55,7 @@ const Cards = () => {
             </div>
             <div className="px-6 pt-4 pb-2 flex items-center justify-between">
               <span onClick={() => toggleAudio(card.title)} className="inline-block cursor-pointer rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                <PauseIcon />
+              {isPlaying[card.title] ? <PauseIcon /> : <PlayIcon />}
               </span>
               <span className="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 <div className="flex items-center justify-center">
