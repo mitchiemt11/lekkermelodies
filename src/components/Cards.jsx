@@ -32,6 +32,7 @@ const Cards = () => {
 
   const audioElements = React.useRef({});
   const [isPlaying, setIsPlaying] = React.useState({});
+  const [volume, setVolume] = React.useState(0.5); // Initial volume level (e.g., 0.5 for 50%)
 
   const toggleAudio = (title) => {
     const audio = audioElements.current[title]; // Retrieve the audio element using the title
@@ -45,6 +46,15 @@ const Cards = () => {
     }
   };
 
+  // Function to handle volume changes
+  const handleVolumeChange = (title, newVolume) => {
+    const audio = audioElements.current[title];
+    if (audio) {
+      audio.volume = newVolume; // Update the volume of the audio element
+      setVolume(newVolume); // Update the volume state
+    }
+  };
+
   return (
     <div className="flex flex-wrap -mx-4">
       {cardData.map((card, index) => (
@@ -55,11 +65,19 @@ const Cards = () => {
             </div>
             <div className="px-6 pt-4 pb-2 flex items-center justify-between">
               <span onClick={() => toggleAudio(card.title)} className="inline-block cursor-pointer rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-              {isPlaying[card.title] ? <PauseIcon /> : <PlayIcon />}
+                {isPlaying[card.title] ? <PauseIcon /> : <PlayIcon />}
               </span>
               <span className="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 <div className="flex items-center justify-center">
-                  <input type='range' />
+                  {/* Input element for volume control */}
+                  <input
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.01"
+                    value={volume}
+                    onChange={(e) => handleVolumeChange(card.title, parseFloat(e.target.value))}
+                  />
                 </div>
               </span>
             </div>
