@@ -92,7 +92,7 @@ const Cards = () => {
                 </div>
               </span>
             </div>
-            <audio ref={(audio) => (audioElements.current[card.title] = audio)}>
+            <audio ref={(audio) => (audioElements.current[card.title] = audio)} loop={true}>
               <source src={card.audioSrc} type="audio/mp3" />
               Your browser does not support the audio element.
             </audio>
