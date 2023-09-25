@@ -47,6 +47,15 @@ const Cards = () => {
   const [volume, setVolume] = useState({});
   const audioElements = useRef({});
 
+
+  /**
+   * Toggle Audio Playback
+   *
+   * Toggles the playback state (play/pause) of a specific audio element.
+   * Updates the `isPlaying` state to reflect the current playback status.
+   *
+   * @param {string} title - The title of the audio track to be toggled.
+  */
   const toggleAudio = (title) => {
     const audio = audioElements.current[title];
     if (audio && audio.paused) {
@@ -59,6 +68,15 @@ const Cards = () => {
     }
   };
 
+  /**
+   * Handle Volume Change
+   *
+   * Adjusts the volume level of a specific audio element.
+   * Updates the `volume` state to reflect the new volume level.
+   *
+   * @param {string} title - The title of the audio track to adjust the volume for.
+   * @param {number} newVolume - The new volume level (between 0 and 1).
+   */
   const handleVolumeChange = (title, newVolume) => {
     const audio = audioElements.current[title];
     if (audio) {
@@ -67,6 +85,12 @@ const Cards = () => {
     }
   };
 
+  /**
+   * Initialize Volume State
+   *
+   * Sets the initial volume state for each audio element when the component mounts.
+   * Initializes the `volume` state with default volume levels.
+   */
   useEffect(() => {
     const initialVolume = {};
     audioData.forEach((card) => {
