@@ -15,7 +15,7 @@ import WhiteNoise from '../data/nature_sounds/white-noise.mp3'
 import Wind from '../data/nature_sounds/wind-outside.mp3'
 
 const Cards = () => {
-  const cardData = [
+  const cardData = React.useMemo(() => [
     { title: 'Evening Birds', audioSrc: Eveningbirds },
     { title: 'Campfire Crackling', audioSrc: Campfire },
     { title: 'Wind Outside', audioSrc: Wind },
@@ -28,11 +28,11 @@ const Cards = () => {
     { title: 'Night Field Cricket', audioSrc: Night },
     { title: 'Soft Piano', audioSrc: Piano },
     { title: 'Calm River', audioSrc: CalmRiver },
-  ];
+  ], []);
 
   const audioElements = React.useRef({});
   const [isPlaying, setIsPlaying] = React.useState({});
-  const [volume, setVolume] = React.useState(0.5); // Initial volume level (e.g., 0.5 for 50%)
+  const [volume, setVolume] = React.useState({});
 
   const toggleAudio = (title) => {
     const audio = audioElements.current[title]; // Retrieve the audio element using the title
@@ -46,14 +46,24 @@ const Cards = () => {
     }
   };
 
-  // Function to handle volume changes
-  const handleVolumeChange = (title, newVolume) => {
-    const audio = audioElements.current[title];
-    if (audio) {
-      audio.volume = newVolume; // Update the volume of the audio element
-      setVolume(newVolume); // Update the volume state
-    }
-  };
+    // Function to initialize volume and handle volume changes for a specific audio
+    const handleVolumeChange = (title, newVolume) => {
+      const audio = audioElements.current[title];
+      if (audio) {
+        audio.volume = newVolume;
+        setVolume({ ...volume, [title]: newVolume });
+      }
+    };
+  
+    // Initialize volume state for each audio element
+    React.useEffect(() => {
+      const initialVolume = {};
+      cardData.forEach((card) => {
+        initialVolume[card.title] = 0.5; // Set the initial volume level (e.g., 0.5 for 50%)
+      });
+      setVolume(initialVolume);
+    }, [cardData]);
+  
 
   return (
     <div className="flex flex-wrap -mx-4">
@@ -75,8 +85,9 @@ const Cards = () => {
                     min="0"
                     max="1"
                     step="0.01"
-                    value={volume}
+                    value={volume[card.title] || 0} // Use volume for the specific audio
                     onChange={(e) => handleVolumeChange(card.title, parseFloat(e.target.value))}
+                    name={`volume-${card.title}`} // Add a unique identifier to the input name
                   />
                 </div>
               </span>
