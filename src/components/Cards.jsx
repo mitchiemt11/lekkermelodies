@@ -1,3 +1,15 @@
+/**
+ * Nature Sounds Player Component
+ *
+ * This component allows users to play and control various nature sounds. It provides
+ * a list of sound cards with play/pause functionality and volume control for each
+ * sound. Users can interact with the cards to play and adjust the volume of the
+ * selected nature sound.
+ *
+ * @version 1.0.0
+ * @date September 25, 2023
+ */
+
 import React, { useRef, useState, useEffect } from 'react';
 import PlayIcon from './PlayIcon';
 import PauseIcon from './PauseIcon';
