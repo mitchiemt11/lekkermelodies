@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const posts = [
   {
     id: 1,
@@ -94,10 +96,7 @@ export default function Blog() {
                   </div>
                   <div className="group relative max-w-xl">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                      <a href={post.href}>
-                        <span className="absolute inset-0" />
-                        {post.title}
-                      </a>
+                    <Link to={`/blog/${post.id}`}>{post.title}</Link>   
                     </h3>
                     <p className="mt-5 text-sm leading-6 text-gray-600">{post.description}</p>
                   </div>
