@@ -3,6 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import Post from './pages/Post';
 import Overview from './pages/Overview';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/overview' element={<Overview />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/blog/:id' element={<Post />} />
         <Route path='/about' element={<About />} />
       </Routes>
       <footer className='p-6 flex flex-col md:flex-row items-center justify-between text-white'>
