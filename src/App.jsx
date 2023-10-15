@@ -1,22 +1,16 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Post from './pages/Post';
 import Overview from './pages/Overview';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <header className='container text-white mx-auto p-6 flex flex-col md:flex-row items-center justify-end'>
-        <div className='flex -mx-6'>
-          <Link to="/" className="mx-3 hover:opacity-80  duration-150">Home</Link> |
-          <Link to="/overview" className="mx-3 hover:opacity-80  duration-150">Overview</Link> |
-          <Link to="blog" className="mx-3 hover:opacity-80  duration-150">Blog</Link> |
-          <Link to="about" className="mx-3 hover:opacity-80  duration-150">About</Link> 
-        </div>
-      </header>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/overview' element={<Overview />} />
