@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <div className="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
               <div className="w-full text-center text-gray-700 font-semibold relative pt-3 md:pt-0">
-                <div className="text-3xl text-white font-extrabold leading-tight uppercase pt-6">
+                <div className="text-4xl text-white font-extrabold leading-tight uppercase pt-6">
                   Lekker Melodies
                 </div>
                 <div className="text-normal text-gray-300 mt-6">

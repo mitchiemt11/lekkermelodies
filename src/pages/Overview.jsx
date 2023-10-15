@@ -2,7 +2,7 @@ import { CheckCircleIcon } from '@heroicons/react/20/solid'
 
 export default function Overview() {
   return (
-    <div className="bg-gray-300 rounded-t-3xl px-6 pt-32 lg:px-8">
+    <div className="bg-gray-100 rounded-t-3xl px-6 pt-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Overview</h1>
         <p className="mt-6 text-xl leading-8">
