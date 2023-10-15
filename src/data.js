@@ -3,7 +3,7 @@ export const posts = [
     id: 1,
     title: 'Can Listening to Nature Sounds Improve Mental Performance?',
     description:
-      "In today's fast-paced and stressful world, finding ways to enhance mental performance and well-being has become increasingly important. Many people turn to various methods, from meditation and exercise to dietary changes and ",
+      "In today's fast-paced and stressful world, finding ways to enhance mental performance and well-being has become increasingly important. Many people turn to various methods, from meditation and exercise to dietary changes..",
     body: `
       In our modern, fast-paced world, the pursuit of improved mental performance and well-being has become increasingly crucial. Amid the myriad of techniques available, one lesser-known yet promising avenue is the therapeutic power of nature sounds. Scientific research has unveiled the profound impact of listening to nature sounds on cognitive function, mood, and overall well-being.
 
@@ -27,7 +27,7 @@ export const posts = [
     id: 2,
     title: 'Flow State Unlocked: Music and Focus for Peak Performance',
     description:
-      "Achieving peak performance in any endeavor often requires entering a state of intense focus and productivity known as the 'flow state'. This mental state is characterized by a heightened sense of awareness, effortless concentration, and a profound sense of joy in the task at hand.",
+      "Achieving peak performance in any endeavor often requires entering a state of intense focus and productivity known as the 'flow state'. This mental state is characterized by a heightened sense of awareness, effortless concentration,....",
     body: `
       Achieving peak performance in any endeavor often requires entering a state of intense focus and productivity known as the 'flow state'. This mental state is characterized by a heightened sense of awareness, effortless concentration, and a profound sense of joy in the task at hand. It's a state where time seems to stand still, distractions fade away, and your actions become almost automatic. Musicians, athletes, artists, and professionals in various fields seek to tap into the flow state to excel in their work.
 
@@ -48,7 +48,7 @@ export const posts = [
     id: 3,
     title: 'Relaxation Techniques for Peak Productivity',
     description:
-      "In the hustle and bustle of our fast-paced lives, finding the balance between productivity and relaxation can be a real challenge. It might seem counterintuitive, but relaxation is a key ingredient in achieving peak productivity. By incorporating relaxation techniques into your routine",
+      "In the hustle and bustle of our fast-paced lives, finding the balance between productivity and relaxation can be a real challenge. It might seem counterintuitive, but relaxation is a key ingredient in achieving peak...",
     body: `
     In the modern world, where the pressure to constantly perform and deliver is ever-present, the importance of relaxation cannot be overstated. It acts as a crucial counterbalance to the stress and demands of our daily lives, allowing us to recharge our mental and physical batteries, and in turn, boost our productivity. One of the simplest yet highly effective relaxation techniques is deep breathing. By taking a few moments to engage in deep, intentional breaths, you can trigger your body's relaxation response, reducing stress and anxiety while increasing oxygen flow to your brain. This, in turn, helps you think more clearly, make better decisions, and stay focused on your tasks.
 
@@ -68,7 +68,7 @@ export const posts = [
     id: 4,
     title: 'The Healing Power of Sound: Boosting Focus and Reducing Anxiety',
     description:
-      "Sound is a fundamental aspect of our existence. From the gentle rustling of leaves in a forest to the rhythmic beat of a favorite song, sound has the remarkable ability to shape our emotions, enhance our concentration, and even soothe our anxieties. In recent years, the therapeutic benefits of sound have..",
+      "Sound is a fundamental aspect of our existence. From the gentle rustling of leaves in a forest to the rhythmic beat of a favorite song, sound has the remarkable ability to shape our emotions, enhance our concentration, and even soothe...",
     body: `
     Sound is a powerful and often underestimated force in our lives. It has the unique capacity to influence our emotions, cognitive functions, and overall mental well-being. The therapeutic potential of sound has become increasingly acknowledged in recent years, offering a range of benefits for those looking to optimize their focus and alleviate anxiety. For example, ambient sounds like the gentle rustling of leaves in a natural setting or calming ocean waves can have a grounding effect, helping individuals connect with the present moment and reduce stress. On the other hand, rhythmic and repetitive sounds, such as a favorite song or a meditation mantra, can help improve concentration and relaxation.
 

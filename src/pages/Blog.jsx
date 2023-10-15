@@ -29,9 +29,10 @@ export default function Blog() {
                   </div>
                   <div className="group relative max-w-xl">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                    <Link to={`/blog/${post.id}`}>{post.title}</Link>   
+                      {post.title}
                     </h3>
                     <p className="mt-5 text-sm leading-6 text-gray-600">{post.description}</p>
+                    <Link className='text-[#0274ff]' to={`/blog/${post.id}`}>Read more &rarr;</Link>  
                   </div>
                   <div className="mt-6 flex border-t border-gray-900/5 pt-6">
                     <div className="relative flex items-center gap-x-4">
