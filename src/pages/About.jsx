@@ -26,28 +26,77 @@ const About = () => {
                     Creating a peaceful and focused atmosphere using the magic of sounds
                   </span>
                 </div>
-                <p className="text-gray-300 mt-12 pt-8">
+                <p className="text-gray-300 mt-12 pt-8 text-left">
                   I've always believed that the right sounds can make a world of difference
                   in our daily lives. Whether it's the gentle rustling of leaves in a forest
-                  or the soft hum of a coffee shop, sounds have this incredible power to 
+                  or the soft hum of a coffee shop, sounds have this incredible power to
                   transport us to a calmer, more focused state of mind.
                 </p>
-                <p className="text-gray-300 mt-4">
+                <p className="text-gray-300 mt-4 text-left">
                   So, I decided to create <b>Lekker Melodies</b> as a place where you and
                   I can explore the incredible world of sounds together. I'm not a
                   sound guru or anything, just someone who appreciates the beauty of
                   a well-timed melody or the soothing rhythm of raindrops.
                 </p>
-                <p className="text-gray-300 mt-4">
+                <p className="text-gray-300 mt-4 text-left">
                   Through <b>Lekker Melodies</b>, I want to share this love for sounds with
                   you and help you find your own moments of serenity in the midst of
                   life's chaos. Together, we can create a little oasis of calm, no matter where you are.
                 </p>
-                <p className="text-gray-300 mt-4 mb-8">
+                <p className="text-gray-300 mt-4 mb-8 text-left">
                   So, if you're curious about how the right sounds can make your day
                   a bit brighter or help you focus better, stick around. Let's embark
                   on this sound adventure together at <b>Lekker Melodies.</b>
                 </p>
+                <p className="text-gray-300 mt-4 mb-8 text-left">
+                  So, if you're curious about how the right sounds can make your day
+                  a bit brighter or help you focus better, stick around. Let's embark
+                  on this sound adventure together at <b>Lekker Melodies.</b>
+                </p>
+                <h2 className="text-2xl text-white mt-8 mb-4 text-left">Images and Sounds Credits</h2>
+                <ul className="list-disc pl-6 text-left text-white">
+                  <li className="mt-2 mb-2">
+                    <a
+                      href="https://pixabay.com/"
+                      target='blank'
+                      className="text-white underline text-lg"
+                    >Pixabay
+                    </a>
+                  </li>
+                  <li className="mt-2 mb-2">
+                    <a
+                      href="https://ideogram.ai/t/trending"
+                      target='blank'
+                      className="text-white underline text-lg"
+                    >Ideogram AI
+                    </a>
+                  </li>
+                  <li className="mt-2 mb-2">
+                    <a
+                      href="https://pixabay.com/users/dennish18-26151496/"
+                      className="text-white underline text-lg"
+                      target='blank'
+                    >Denis
+                    </a>
+                  </li>
+                  <li className="mt-2 mb-2">
+                    <a
+                      href="https://pixabay.com/users/soundsforyou-4861230/"
+                      target='blank'
+                      className="text-white underline text-lg"
+                    >Micheal - SoundsForYou
+                    </a>
+                  </li>
+                  <li className="mt-2 mb-2">
+                    <a
+                      href="https://pixabay.com/users/white_records-32584949/"
+                      target='blank'
+                      className="text-white underline text-lg"
+                    >Maksym Dudchyk - White Records
+                    </a>
+                  </li>
+                </ul>
+
               </div>
             </div>
           </div>
