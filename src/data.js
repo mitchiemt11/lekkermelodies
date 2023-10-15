@@ -1,5 +1,3 @@
-// data.js
-
 export const posts = [
   {
     id: 1,
@@ -18,7 +16,7 @@ export const posts = [
       In conclusion, listening to nature sounds is a simple yet powerful tool for enhancing mental performance and overall well-being in our busy lives. The scientific evidence supporting its positive effects, coupled with the accessibility of this practice, makes it a valuable addition to one's daily routine for a more relaxed, focused, and contented life.
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-    date: 'Mar 16, 2020',
+    date: 'Mar 16, 2023',
     datetime: '2020-03-16',
     author: {
       name: 'Mitchell M',
@@ -39,7 +37,7 @@ export const posts = [
 
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto.format&fit=crop&w=3603&q=80',
-    date: 'Mar 16, 2020',
+    date: 'Apr 5, 2023',
     datetime: '2020-03-16',
     author: {
       name: 'Chantal C',
@@ -59,7 +57,7 @@ export const posts = [
     Incorporating short breaks into your work routine, practicing progressive muscle relaxation, or even listening to calming music are other relaxation techniques that can rejuvenate your mind and body, ultimately improving your productivity. Striking a balance between work and relaxation is the key to long-term success, ensuring you remain focused, creative, and capable of handling the challenges that come your way. By making relaxation a priority, you can achieve peak productivity while maintaining your overall well-being and work-life balance.
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto.format&fit=crop&w=3603&q=80',
-    date: 'Mar 16, 2020',
+    date: 'May 24, 2023',
     datetime: '2020-03-16',
     author: {
       name: 'Melody M',
@@ -79,7 +77,7 @@ export const posts = [
     Incorporating sound-based practices into your daily routine, such as mindfulness meditation with background sounds or using noise-cancelling headphones to create a focused environment, can be transformative in your quest for a balanced and centered life. By understanding and harnessing the healing power of sound, you can empower yourself to better navigate the demands of a modern, fast-paced world and find moments of serenity and heightened productivity.
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto.format&fit=crop&w=3603&q=80',
-    date: 'Mar 16, 2020',
+    date: 'July 28, 2023',
     datetime: '2020-03-16',
     author: {
       name: 'Kudzai M',
