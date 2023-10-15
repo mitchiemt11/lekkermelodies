@@ -10,7 +10,7 @@ export default function Overview() {
           It's like having your own secret tool to make noisy places quieter. Here's what you can expect:
         </p>
         <div className="mt-10 max-w-2xl">
-          <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+          <ul className="mt-8 max-w-xl space-y-8 text-gray-600">
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-[#0274ff]" aria-hidden="true" />
               <span>

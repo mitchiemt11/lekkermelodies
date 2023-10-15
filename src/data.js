@@ -17,7 +17,6 @@ export const posts = [
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
     date: 'Mar 16, 2023',
-    datetime: '2020-03-16',
     author: {
       name: 'Mitchell M',
       imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
@@ -38,7 +37,6 @@ export const posts = [
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto.format&fit=crop&w=3603&q=80',
     date: 'Apr 5, 2023',
-    datetime: '2020-03-16',
     author: {
       name: 'Chantal C',
       imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
@@ -58,7 +56,6 @@ export const posts = [
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto.format&fit=crop&w=3603&q=80',
     date: 'May 24, 2023',
-    datetime: '2020-03-16',
     author: {
       name: 'Melody M',
       imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
@@ -78,10 +75,27 @@ export const posts = [
     `,
     imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto.format&fit=crop&w=3603&q=80',
     date: 'July 28, 2023',
-    datetime: '2020-03-16',
     author: {
       name: 'Kudzai M',
       imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
     },
   },
+  {
+    id: 5,
+    title: 'Art, Imagination, and Productivity',
+    description: 'In the dynamic realm of productivity, the quest to unearth new pathways for enhancing creativity and work performance is an ongoing endeavor. Amid this exploration, sound emerges as a surprising yet potent tool. When it comes to...',
+    body: `
+    In the dynamic realm of productivity, the quest to unearth new pathways for enhancing creativity and work performance is an ongoing endeavor. Amid this exploration, sound emerges as a surprising yet potent tool. When it comes to the convergence of art, imagination, and productivity, music takes center stage as a catalytic force in unlocking creative potential.
+
+    The profound connection between music and the realm of imagination transcends mere auditory pleasure. Recent studies have underscored the role of music as an inspiring backdrop that can elevate focus and stimulate inventive thinking. Whether you find solace in the soothing melodies of classical compositions or the atmospheric sounds of electronic music, the right soundtrack has the power to transport you into a realm where creativity flourishes.
+    
+    Beyond the soothing sounds, certain rhythms and beats in music resonate with the rhythms of our own brainwaves. This resonance creates a sense of harmony and unity in our cognitive processes, potentially leading to the much-coveted state of flow where creativity flows unimpeded, and productivity soars. Music's ability to harness our innate imaginative faculties and guide them toward fruitful productivity is a promising avenue to explore in our modern, innovative work environments.
+    `,
+    imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto.format&fit=crop&w=3603&q=80',
+    date: 'September 6, 2023',
+    author: {
+      name: 'Netsai C',
+      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
+    },
+  }
 ];
