@@ -2,7 +2,7 @@ import { CheckCircleIcon } from '@heroicons/react/20/solid'
 
 export default function Overview() {
   return (
-    <div className="bg-gray-300 rounded-t-3xl px-6 pt-32 lg:px-8">
+    <div className="bg-gray-100 rounded-t-3xl px-6 pt-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Overview</h1>
         <p className="mt-6 text-xl leading-8">
@@ -10,7 +10,7 @@ export default function Overview() {
           It's like having your own secret tool to make noisy places quieter. Here's what you can expect:
         </p>
         <div className="mt-10 max-w-2xl">
-          <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+          <ul className="mt-8 max-w-xl space-y-8 text-gray-600">
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-[#0274ff]" aria-hidden="true" />
               <span>
