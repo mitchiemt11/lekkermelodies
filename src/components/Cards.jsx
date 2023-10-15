@@ -121,6 +121,7 @@ const Cards = () => {
                     value={volume[card.title] || 0}
                     onChange={(e) => handleVolumeChange(card.title, parseFloat(e.target.value))}
                     name={`volume-${card.title}`}
+                    style={{ cursor: 'pointer' }}
                   />
                 </div>
               </span>
