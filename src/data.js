@@ -3,7 +3,7 @@ export const posts = [
     id: 1,
     title: 'Can Listening to Nature Sounds Improve Mental Performance?',
     description:
-      "In today's fast-paced and stressful world, finding ways to enhance mental performance and well-being has become increasingly important. Many people turn to various methods, from meditation and exercise to dietary changes and mindfulness practices. One lesser-known but promising avenue for...",
+      "In today's fast-paced and stressful world, finding ways to enhance mental performance and well-being has become increasingly important. Many people turn to various methods, from meditation and exercise to dietary changes and ",
     body: `
       In our modern, fast-paced world, the pursuit of improved mental performance and well-being has become increasingly crucial. Amid the myriad of techniques available, one lesser-known yet promising avenue is the therapeutic power of nature sounds. Scientific research has unveiled the profound impact of listening to nature sounds on cognitive function, mood, and overall well-being.
 
@@ -20,7 +20,7 @@ export const posts = [
     datetime: '2020-03-16',
     author: {
       name: 'Mitchell M',
-      imageUrl: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
     },
   },
   {
@@ -41,7 +41,7 @@ export const posts = [
     datetime: '2020-03-16',
     author: {
       name: 'Chantal C',
-      imageUrl: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
     },
   },
   {
@@ -61,7 +61,7 @@ export const posts = [
     datetime: '2020-03-16',
     author: {
       name: 'Melody M',
-      imageUrl: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
     },
   },
   {
@@ -81,7 +81,7 @@ export const posts = [
     datetime: '2020-03-16',
     author: {
       name: 'Kudzai M',
-      imageUrl: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
     },
   },
 ];
