@@ -6,6 +6,7 @@ import Blog from './pages/Blog';
 import Post from './pages/Post';
 import Overview from './pages/Overview';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,12 +19,7 @@ function App() {
         <Route path='/blog/:id' element={<Post />} />
         <Route path='/about' element={<About />} />
       </Routes>
-      <footer className='p-6 flex flex-col md:flex-row items-center justify-between text-white'>
-        <p className='mx-3 pt-16'>Built with 💝 by Mitchell Mutandah</p>
-        <div className='flex pt-16'>
-          <p className="mx-3">© 2023 Lekker Melodies, All Rights Reserved</p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
