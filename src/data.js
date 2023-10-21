@@ -1,4 +1,5 @@
 import PROFILE from './data/assets/profile.jpg';
+import DEFAULT_AVATAR from './data/assets/default_avatar.png';
 
 export const posts = [
   {
@@ -41,7 +42,7 @@ export const posts = [
     date: 'Apr 5, 2023',
     author: {
       name: 'Chantal C',
-      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
+      imageUrl: DEFAULT_AVATAR,
     },
   },
   {
@@ -60,7 +61,7 @@ export const posts = [
     date: 'May 24, 2023',
     author: {
       name: 'Melody M',
-      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
+      imageUrl: DEFAULT_AVATAR,
     },
   },
   {
@@ -79,7 +80,7 @@ export const posts = [
     date: 'July 28, 2023',
     author: {
       name: 'Kudzai M',
-      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
+      imageUrl: DEFAULT_AVATAR,
     },
   },
   {
@@ -97,7 +98,7 @@ export const posts = [
     date: 'September 6, 2023',
     author: {
       name: 'Netsai C',
-      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
+      imageUrl: DEFAULT_AVATAR,
     },
   }
 ];
