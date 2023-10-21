@@ -1,3 +1,5 @@
+import PROFILE from './data/assets/profile.jpg';
+
 export const posts = [
   {
     id: 1,
@@ -19,7 +21,7 @@ export const posts = [
     date: 'Mar 16, 2023',
     author: {
       name: 'Mitchell M',
-      imageUrl: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png ",
+      imageUrl: PROFILE,
     },
   },
   {
