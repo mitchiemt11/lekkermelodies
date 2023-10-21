@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   const backgroundStyle = {
-    backgroundImage: "url('https://images.unsplash.com/photo-1578836537282-3171d77f8632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')",
+    backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT400MbfOakaKIuZkEdDuFw1VkO_D5cLOTRbw&usqp=CAU')",
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundBlendMode: 'multiply',
@@ -21,7 +21,7 @@ const About = () => {
               />
             </div>
             <div className="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
-              <div className="w-full text-center text-gray-700 font-semibold relative pt-3 md:pt-0">
+              <div className="w-full text-center font-semibold relative pt-3 md:pt-0">
                 <div className="text-4xl text-white font-extrabold leading-tight uppercase pt-6">
                   Lekker Melodies
                 </div>
