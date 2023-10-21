@@ -1,10 +1,10 @@
-import PROFILE from './data/assets/profile.jpg';
-import DEFAULT_AVATAR from './data/assets/default_avatar.png';
-import BLOG_1 from './data/assets/blog_1.jpg';
-import BLOG_2 from './data/assets/blog_2.png';
-import BLOG_3 from './data/assets/blog_3.png';
-import BLOG_4 from './data/assets/blog_4.png';
-import BLOG_5 from './data/assets/blog_5.png';
+import PROFILE from './assets/images/profile.jpg';
+import DEFAULT_AVATAR from './assets/images/default_avatar.png';
+import BLOG_1 from './assets/images/blog_1.jpg';
+import BLOG_2 from './assets/images/blog_2.png';
+import BLOG_3 from './assets/images/blog_3.png';
+import BLOG_4 from './assets/images/blog_4.png';
+import BLOG_5 from './assets/images/blog_5.png';
 
 export const posts = [
   {

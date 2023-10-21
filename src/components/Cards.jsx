@@ -14,18 +14,18 @@ import React, { useRef, useState, useEffect } from 'react';
 import PlayIcon from './PlayIcon';
 import PauseIcon from './PauseIcon';
 
-import campfireAudio from '../data/nature_sounds/campfire-crackling.mp3';
-import calmRiverAudio from '../data/nature_sounds/calm-river.mp3';
-import chimesAudio from '../data/nature_sounds/chimes-bells.mp3';
-import eveningBirdsAudio from '../data/nature_sounds/evening-birds.mp3';
-import lightningThunderAudio from '../data/nature_sounds/lighting-thunder.mp3';
-import natureRelaxBirdsAudio from '../data/nature_sounds/nature-relax-birds.mp3';
-import nightFieldCricketAudio from '../data/nature_sounds/night-field-cricket.mp3';
-import rainAmbientAudio from '../data/nature_sounds/rain-ambient.mp3';
-import smallWavesAudio from '../data/nature_sounds/small-waves.mp3';
-import softPianoAudio from '../data/nature_sounds/soft-piano.mp3';
-import whiteNoiseAudio from '../data/nature_sounds/white-noise.mp3';
-import windOutsideAudio from '../data/nature_sounds/wind-outside.mp3';
+import campfireAudio from '../assets/nature_sounds/campfire-crackling.mp3';
+import calmRiverAudio from '../assets/nature_sounds/calm-river.mp3';
+import chimesAudio from '../assets/nature_sounds/chimes-bells.mp3';
+import eveningBirdsAudio from '../assets/nature_sounds/evening-birds.mp3';
+import lightningThunderAudio from '../assets/nature_sounds/lighting-thunder.mp3';
+import natureRelaxBirdsAudio from '../assets/nature_sounds/nature-relax-birds.mp3';
+import nightFieldCricketAudio from '../assets/nature_sounds/night-field-cricket.mp3';
+import rainAmbientAudio from '../assets/nature_sounds/rain-ambient.mp3';
+import smallWavesAudio from '../assets/nature_sounds/small-waves.mp3';
+import softPianoAudio from '../assets/nature_sounds/soft-piano.mp3';
+import whiteNoiseAudio from '../assets/nature_sounds/white-noise.mp3';
+import windOutsideAudio from '../assets/nature_sounds/wind-outside.mp3';
 
 const audioData = [
   { title: 'Evening Birds', audioSrc: eveningBirdsAudio },

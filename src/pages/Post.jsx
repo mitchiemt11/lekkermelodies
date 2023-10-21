@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { posts } from '../data';
-import PANDA_404 from '../data/assets/panda_404.png';
+import PANDA_404 from '../assets/images/panda_404.png';
 
 const Post = () => {
   // Get the "id" parameter from the URL using useParams

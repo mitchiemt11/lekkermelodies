@@ -1,9 +1,10 @@
 import React from 'react';
-import PROFILE from '../data/assets/profile.jpg';
+import PROFILE from '../assets/images/profile.jpg';
+import MUSIC_NOTE from '../assets/images/music_note.png';
 
 const About = () => {
   const backgroundStyle = {
-    backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT400MbfOakaKIuZkEdDuFw1VkO_D5cLOTRbw&usqp=CAU')",
+    backgroundImage: `url(${MUSIC_NOTE})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundBlendMode: 'multiply',
