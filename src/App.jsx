@@ -5,6 +5,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Post from './pages/Post';
 import Overview from './pages/Overview';
+import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/blog' element={<Blog />} />
         <Route path='/blog/:id' element={<Post />} />
         <Route path='/about' element={<About />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </>

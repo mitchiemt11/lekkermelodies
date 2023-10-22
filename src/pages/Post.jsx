@@ -14,7 +14,7 @@ const Post = () => {
   if (!post) {
     return (
       <div className="bg-gray-300 rounded-t-3xl px-6 pt-32 lg:px-8">
-        <Link to="/blog" className="text-gray-900 hover:text-gray-600 text-xl absolute top-40 left-20">
+        <Link to="/blog" className="text-[#0274ff] hover:text-gray-600 text-xl absolute top-40 left-20">
           &larr;  Back
         </Link>
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700 text-center justify-center items-center">
@@ -36,7 +36,7 @@ const Post = () => {
 
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{post.title}</h1>
-        <Link to="/blog" className="text-gray-900 hover:text-gray-600 text-xl absolute top-40 left-20">
+        <Link to="/blog" className="text-[#0274ff] hover:text-gray-600 text-xl absolute top-40 left-20">
           &larr;  Back
         </Link>
         <p className="mt-6 text-xl leading-8">{post.body}</p>
