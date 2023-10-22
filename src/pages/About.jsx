@@ -1,8 +1,10 @@
 import React from 'react';
+import PROFILE from '../assets/images/profile.jpg';
+import MUSIC_NOTE from '../assets/images/music_note.png';
 
 const About = () => {
   const backgroundStyle = {
-    backgroundImage: "url('https://images.unsplash.com/photo-1578836537282-3171d77f8632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')",
+    backgroundImage: `url(${MUSIC_NOTE})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundBlendMode: 'multiply',
@@ -13,15 +15,17 @@ const About = () => {
       <div className="w-screen h-screen flex flex-row flex-wrap p-3">
         <div className="mx-auto w-2/3">
           <div className="rounded-lg shadow-lg bg-gray-600 w-full flex flex-row flex-wrap p-3 antialiased" style={backgroundStyle}>
-            <div className="md:w-1/3 w-full flex justify-center mt-28">
-              <img
-                className="rounded-full shadow-lg antialiased w-44 h-44"
-                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
-                alt="User Profile"
-              />
+            <div className="md:w-1/3 w-full flex justify-center mt-20">
+              <div className="rounded-full shadow-lg antialiased w-64 h-64 ">
+                <img
+                  className="rounded-full object-cover w-full h-72 border-4 border-gray-300"
+                  src={PROFILE}
+                  alt="User Profile"
+                />
+              </div>
             </div>
             <div className="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
-              <div className="w-full text-center text-gray-700 font-semibold relative pt-3 md:pt-0">
+              <div className="w-full text-center font-semibold relative pt-3 md:pt-0">
                 <div className="text-4xl text-white font-extrabold leading-tight uppercase pt-6">
                   Lekker Melodies
                 </div>
