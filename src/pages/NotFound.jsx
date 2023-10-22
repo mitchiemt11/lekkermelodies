@@ -5,7 +5,7 @@ import PAGE_NOT_FOUND from '../assets/images/page_not_found.png';
 const NotFound = () => {
   return (
     <div className="bg-gray-300 rounded-t-3xl px-6 pt-32 lg:px-8">
-      <Link to="/blog" className="text-gray-900 hover:text-gray-600 text-xl absolute top-40 left-20">
+      <Link to="/blog" className="text-[#0274ff] hover:text-gray-600 text-xl absolute top-40 left-20">
         &larr;  Back
       </Link>
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700 text-center justify-center items-center">
