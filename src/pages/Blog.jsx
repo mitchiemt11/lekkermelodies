@@ -32,7 +32,7 @@ export default function Blog() {
                       {post.title}
                     </h3>
                     <p className="mt-5 text-sm leading-6 text-gray-600">{post.description}</p>
-                    <Link className='text-[#0274ff]  group-hover:text-gray-600' to={`/blog/${post.id}`}>Read more &rarr;</Link>  
+                    <Link className='text-[#0274ff]  hover:text-gray-600' to={`/blog/${post.id}`}>Read more &rarr;</Link>  
                   </div>
                   <div className="mt-6 flex border-t border-gray-900/5 pt-6">
                     <div className="relative flex items-center gap-x-4">
