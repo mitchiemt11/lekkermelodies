@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a60f813.css",
-    "main.js": "/static/js/main.a3c65e50.js",
+    "main.js": "/static/js/main.0cade7fa.js",
     "static/media/blog_3.png": "/static/media/blog_3.4faef6a24bd667e0d681.png",
     "static/media/nature-relax-birds.mp3": "/static/media/nature-relax-birds.173e121f5e48d268cd5f.mp3",
     "static/media/rain-ambient.mp3": "/static/media/rain-ambient.48750f2ec99e734cef2a.mp3",
@@ -27,10 +27,10 @@
     "static/media/default_avatar.png": "/static/media/default_avatar.64dc3816010de5e40c24.png",
     "index.html": "/index.html",
     "main.1a60f813.css.map": "/static/css/main.1a60f813.css.map",
-    "main.a3c65e50.js.map": "/static/js/main.a3c65e50.js.map"
+    "main.0cade7fa.js.map": "/static/js/main.0cade7fa.js.map"
   },
   "entrypoints": [
     "static/css/main.1a60f813.css",
-    "static/js/main.a3c65e50.js"
+    "static/js/main.0cade7fa.js"
   ]
 }
