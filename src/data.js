@@ -1,4 +1,3 @@
-import PROFILE from './assets/images/profile.jpg';
 import DEFAULT_AVATAR from './assets/images/default_avatar.png';
 import BLOG_1 from './assets/images/blog_1.jpg';
 import BLOG_2 from './assets/images/blog_2.png';
@@ -27,7 +26,7 @@ export const posts = [
     date: 'Mar 16, 2023',
     author: {
       name: 'Mitchell M',
-      imageUrl: PROFILE,
+      imageUrl: DEFAULT_AVATAR,
     },
   },
   {
