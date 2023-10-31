@@ -1,4 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import GITHUB from '../assets/images/github.png';
+import DEV from '../assets/images/dev.png';
+import LINKEDIN from '../assets/images/linkedin.png';
 
 function Footer() {
   return (
@@ -10,7 +14,7 @@ function Footer() {
         target='_blank'>
         <img
           className='mx-3 border-spacing-0 h-11'
-          src='https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4Mi1kNS0xMF8xLnBuZw.png'
+          src={LINKEDIN}
           alt='LinkedIn'
         />
       </a>
@@ -19,17 +23,17 @@ function Footer() {
         target='_blank'>
         <img
           className='mx-3 border-spacing-0 h-11'
-          src='https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png'
+          src={DEV}
           alt='DEV Community'
         />
       </a>
       <a
-        href='https://medium.com/@mitchiemt11'
+        href='https://github.com/mitchiemt11'
         target='_blank'>
         <img 
           className='mx-3 border-spacing-0 h-11'
-          src='https://cdn.icon-icons.com/icons2/2997/PNG/512/medium_logo_icon_187624.png'
-          alt='Medium'
+          src={GITHUB}
+          alt='Github'
         />
       </a>
       </div>
