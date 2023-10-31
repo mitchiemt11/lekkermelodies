@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className='p-6 flex flex-col md:flex-row items-center justify-between text-white'>
       <p className='mx-3 pt-16'>Built with 💝 by Mitchell Mutandah</p>
-      <div className='flex'>
+      <div className='flex pt-16'>
       <a
         href='https://www.linkedin.com/in/mitchell-mutandah-5726aa212/'
         target='_blank'>
@@ -18,7 +18,7 @@ function Footer() {
         href='https://dev.to/mitchiemt11'
         target='_blank'>
         <img
-          style={{border: '0px', height: '46px'}}
+          className='mx-3 border-spacing-0 h-11'
           src='https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png'
           alt='DEV Community'
         />
@@ -27,9 +27,8 @@ function Footer() {
         href='https://medium.com/@mitchiemt11'
         target='_blank'>
         <img 
-          style={{border: '0px', height: '46px'}}
+          className='mx-3 border-spacing-0 h-11'
           src='https://cdn.icon-icons.com/icons2/2997/PNG/512/medium_logo_icon_187624.png'
-          border='0'
           alt='Medium'
         />
       </a>
