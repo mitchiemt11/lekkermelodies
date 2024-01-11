@@ -41,7 +41,7 @@ Make sure you have Node.js and yarn installed on your machine. You can download 
 2. Navigate to the project directory
 
 ```
-cd lekker-melodies
+cd <project-directory>
 ```
 
 3. Install the necessary dependencies:
@@ -88,5 +88,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 <a href='https://ko-fi.com/iammtander' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 
- ⭐ ⭐ ⭐ **Don't forget to star the repository if you like** ⭐ ⭐ ⭐
+ ⭐ ⭐ ⭐ **Don't forget to star the repo 😉** ⭐ ⭐ ⭐
 
