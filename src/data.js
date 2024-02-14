@@ -24,10 +24,6 @@ export const posts = [
     `,
     imageUrl: BLOG_1,
     date: 'Mar 16, 2023',
-    author: {
-      name: 'Mitchell M',
-      imageUrl: DEFAULT_AVATAR,
-    },
   },
   {
     id: 2,
@@ -44,10 +40,6 @@ export const posts = [
     `,
     imageUrl: BLOG_2,
     date: 'Apr 5, 2023',
-    author: {
-      name: 'Chantal C',
-      imageUrl: DEFAULT_AVATAR,
-    },
   },
   {
     id: 3,
@@ -63,10 +55,6 @@ export const posts = [
     `,
     imageUrl: BLOG_3,
     date: 'May 24, 2023',
-    author: {
-      name: 'Melody M',
-      imageUrl: DEFAULT_AVATAR,
-    },
   },
   {
     id: 4,
@@ -82,10 +70,6 @@ export const posts = [
     `,
     imageUrl: BLOG_4,
     date: 'July 28, 2023',
-    author: {
-      name: 'Kudzai M',
-      imageUrl: DEFAULT_AVATAR,
-    },
   },
   {
     id: 5,
@@ -100,9 +84,5 @@ export const posts = [
     `,
     imageUrl: BLOG_5,
     date: 'September 6, 2023',
-    author: {
-      name: 'Netsai C',
-      imageUrl: DEFAULT_AVATAR,
-    },
   }
 ];

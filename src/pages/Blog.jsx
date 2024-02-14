@@ -34,18 +34,6 @@ export default function Blog() {
                     <p className="mt-5 text-sm leading-6 text-gray-600">{post.description}</p>
                     <Link className='text-[#0274ff]  hover:text-gray-600' to={`/blog/${post.id}`}>Read more &rarr;</Link>  
                   </div>
-                  <div className="mt-6 flex border-t border-gray-900/5 pt-6">
-                    <div className="relative flex items-center gap-x-4">
-                      <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
-                      <div className="text-sm leading-6">
-                        <p className="font-semibold text-gray-900">
-                            <span className="absolute inset-0" />
-                            {post.author.name}
-                        </p>
-                        <p className="text-gray-600">{post.author.role}</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </article>
             ))}
