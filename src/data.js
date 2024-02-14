@@ -1,4 +1,3 @@
-import DEFAULT_AVATAR from './assets/images/default_avatar.png';
 import BLOG_1 from './assets/images/blog_1.jpg';
 import BLOG_2 from './assets/images/blog_2.png';
 import BLOG_3 from './assets/images/blog_3.png';
