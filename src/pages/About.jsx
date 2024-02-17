@@ -56,11 +56,6 @@ const About = () => {
                   a bit brighter or help you focus better, stick around. Let's embark
                   on this sound adventure together at <b>Lekker Melodies.</b>
                 </p>
-                <p className="text-gray-300 mt-4 mb-8 text-left">
-                  So, if you're curious about how the right sounds can make your day
-                  a bit brighter or help you focus better, stick around. Let's embark
-                  on this sound adventure together at <b>Lekker Melodies.</b>
-                </p>
                 <h2 className="text-2xl text-white mt-8 mb-4 text-left">Images and Sounds Credits</h2>
                 <ul className="list-disc pl-6 text-left text-white">
                   <li className="mt-2 mb-2">
