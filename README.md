@@ -15,7 +15,7 @@
   - Birds chirping
   - Soft piano
   - Chiming bells
-  - And many more...
+  - .....
 - Adjustable volume for each sound.
 - Seamless loop for uninterrupted listening.
 - Minimalistic and user-friendly interface.
