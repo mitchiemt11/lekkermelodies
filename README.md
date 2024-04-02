@@ -24,7 +24,7 @@
 
 ## Getting Started
 
-You can follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+You can follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes
 
 ### Prerequisites
 
