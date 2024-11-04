@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.817145a6.css",
-    "main.js": "/static/js/main.37fa235d.js",
+    "main.css": "/static/css/main.74d7c576.css",
+    "main.js": "/static/js/main.b90b0096.js",
     "static/media/blog_3.png": "/static/media/blog_3.4faef6a24bd667e0d681.png",
     "static/media/nature-relax-birds.mp3": "/static/media/nature-relax-birds.173e121f5e48d268cd5f.mp3",
     "static/media/rain-ambient.mp3": "/static/media/rain-ambient.48750f2ec99e734cef2a.mp3",
@@ -26,11 +26,11 @@
     "static/media/profile.jpg": "/static/media/profile.69eb6a9b4ce3f44671d6.jpg",
     "static/media/linkedin.png": "/static/media/linkedin.9ae7bcb54f68879d85dd.png",
     "index.html": "/index.html",
-    "main.817145a6.css.map": "/static/css/main.817145a6.css.map",
-    "main.37fa235d.js.map": "/static/js/main.37fa235d.js.map"
+    "main.74d7c576.css.map": "/static/css/main.74d7c576.css.map",
+    "main.b90b0096.js.map": "/static/js/main.b90b0096.js.map"
   },
   "entrypoints": [
-    "static/css/main.817145a6.css",
-    "static/js/main.37fa235d.js"
+    "static/css/main.74d7c576.css",
+    "static/js/main.b90b0096.js"
   ]
 }
