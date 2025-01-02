@@ -32,7 +32,7 @@ function Footer() {
       </Link>
       </div>
       <div className='flex pt-16'>
-        <p className="mx-3">© 2024 Lekker Melodies, All Rights Reserved</p>
+        <p className="mx-3">© 2025 Lekker Melodies, All Rights Reserved</p>
       </div>
     </footer>
   );
