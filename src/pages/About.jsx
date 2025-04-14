@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <>
-      <div className="w-screen h-screen flex flex-row flex-wrap p-3">
+      <div className="w-screen flex flex-row flex-wrap p-3">
         <div className="mx-auto w-2/3">
           <div className="rounded-lg shadow-lg bg-gray-600 w-full flex flex-row flex-wrap p-3 antialiased" style={backgroundStyle}>
             <div className="md:w-1/3 w-full flex justify-center mt-20">
@@ -102,8 +102,8 @@ const About = () => {
                 <div className="mt-12 text-left">
                   <h2 className="text-2xl text-white mb-4">Support Lekker Melodies</h2>
                   <p className="text-gray-300 mb-4">
-                    If Lekker Melodies has helped you find a little peace or focus in your day, and you’d like to say thanks —
-                    I’d be truly grateful if you considered buying me a coffee. Your support helps keep the melodies flowing!
+                    Creating and curating these peaceful soundscapes is a labor of love that I'm delighted to share freely. If you've found a moment of calm or focus through Lekker Melodies, and you'd like to say thanks, go ahead.
+                    Your support would mean the world to me. This would enable me to discover and create more immersive audio experiences for our community.
                   </p>
                   <a
                     href="https://ko-fi.com/iammtander"
