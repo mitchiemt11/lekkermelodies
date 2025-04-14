@@ -16,7 +16,7 @@ export default function Privacy() {
         <p class="mb-4">I am proud to inform you that Lekker Melodies does not require any sign-up or sign-in, and the site do not collect any personal data from users. You can freely use the app without the need to provide any information. I believe in respecting your privacy and giving you a seamless and secure experience.</p>
 
         <h2 class="text-2xl font-bold mb-2">Contact Information</h2>
-        <p class="mb-4">If you have any questions or concerns about the privacy practices, you can reach out to me through the any  of the social hanndles provided on the <a href="https://lekkermelodies.com/about" className="text-blue-500 hover:text-blue-700">About page</a> of this website. I am committed to addressing any inquiries or issues you may have in a timely and professional manner.</p>
+        <p class="mb-4">If you have any questions or concerns about the privacy practices, you can reach out to me through the any  of the social hanndles provided on the <a href="https://lekkermelodies.com/#about" className="text-blue-500 hover:text-blue-700">About page</a> of this website. I am committed to addressing any inquiries or issues you may have in a timely and professional manner.</p>
 
         <h2 class="text-2xl font-bold mb-2">Changes to this Privacy Policy</h2>
         <p class="mb-4">I may update this Privacy Policy from time to time to ensure it remains accurate and relevant. Any changes will be posted on website, and the updated version will be effective upon posting. I encourage you to review this policy periodically to stay informed about data practices.</p>
