@@ -99,7 +99,21 @@ const About = () => {
                     </a>
                   </li>
                 </ul>
-
+                <div className="mt-12 text-left">
+  <h2 className="text-2xl text-white mb-4">Support Lekker Melodies</h2>
+  <p className="text-gray-300 mb-4">
+    If Lekker Melodies has helped you find a little peace or focus in your day, and you’d like to say thanks — 
+    I’d be truly grateful if you considered buying me a coffee. Your support helps keep the melodies flowing!
+  </p>
+  <a
+    href="https://ko-fi.com/YOUR_KOFI_USERNAME" // ← Replace this with your actual Ko-fi link
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-5 py-3 bg-orange-500 text-white font-semibold rounded-full shadow-md hover:bg-orange-600 transition-colors"
+  >
+    ☕ Buy me a coffee on Ko-fi
+  </a>
+</div>
               </div>
             </div>
           </div>
