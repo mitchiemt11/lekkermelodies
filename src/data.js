@@ -53,7 +53,7 @@ export const posts = [
     Incorporating short breaks into your work routine, practicing progressive muscle relaxation, or even listening to calming music are other relaxation techniques that can rejuvenate your mind and body, ultimately improving your productivity. Striking a balance between work and relaxation is the key to long-term success, ensuring you remain focused, creative, and capable of handling the challenges that come your way. By making relaxation a priority, you can achieve peak productivity while maintaining your overall well-being and work-life balance.
     `,
     imageUrl: BLOG_3,
-    date: 'May 24, 2023',
+    date: 'May 24, 2024',
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ export const posts = [
     Incorporating sound-based practices into your daily routine, such as mindfulness meditation with background sounds or using noise-cancelling headphones to create a focused environment, can be transformative in your quest for a balanced and centered life. By understanding and harnessing the healing power of sound, you can empower yourself to better navigate the demands of a modern, fast-paced world and find moments of serenity and heightened productivity.
     `,
     imageUrl: BLOG_4,
-    date: 'July 28, 2023',
+    date: 'July 28, 2024',
   },
   {
     id: 5,
@@ -82,6 +82,6 @@ export const posts = [
     Beyond the soothing sounds, certain rhythms and beats in music resonate with the rhythms of our own brainwaves. This resonance creates a sense of harmony and unity in our cognitive processes, potentially leading to the much-coveted state of flow where creativity flows unimpeded, and productivity soars. Music's ability to harness our innate imaginative faculties and guide them toward fruitful productivity is a promising avenue to explore in our modern, innovative work environments.
     `,
     imageUrl: BLOG_5,
-    date: 'September 6, 2023',
+    date: 'September 6, 2025',
   }
 ];
