@@ -40,7 +40,7 @@ const Post = () => {
           &larr;  Back
         </Link>
         <p className="mt-6 text-xl leading-8">{post.body}</p>
-        <h2 className="mt-4 text-xl font-bold tracking-tight text-gray-900 ">By {post.author.name}</h2>
+        <h2 className="mt-4 text-xl font-bold tracking-tight text-gray-900 ">By Mitchell Mutandah</h2>
         <div className="mt-10 max-w-2xl mb-8">
           <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900 mb-8">🎵 🎹🎹🎹 🎹🎹🎹 🎵</h3>
         </div>
